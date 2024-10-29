@@ -1,6 +1,69 @@
-# Getting Started with Create React App
+# Aplicativo de Lista de Tarefas - React To-do App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido para praticar React criando um simples aplicativo de lista de tarefas. Ele permite adicionar, marcar como concluídas e remover tarefas, proporcionando uma experiência prática e intuitiva para o gerenciamento de tarefas diárias.
+
+## Funcionalidades Disponíveis
+
+No diretório do projeto, você pode executar:
+
+### `npm start`
+
+Inicia o aplicativo em modo de desenvolvimento.  
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+
+### `npm test`
+
+Executa o modo de teste. Use este comando para verificar se o projeto está funcionando como esperado.
+
+### `npm run build`
+
+Cria o aplicativo para produção na pasta `build`. Ele empacota o React para o modo de produção e otimiza a construção para obter o melhor desempenho.
+
+## Funcionalidades
+
+- **Adicionar Tarefas:** Crie uma nova tarefa para adicionar à sua lista.
+- **Marcar Como Concluída:** Clique em uma tarefa para marcá-la como concluída.
+- **Remover Tarefas:** Remova as tarefas que você não precisa mais.
+- **Filtro de Tarefas:** Visualize todas as tarefas, apenas as concluídas ou as pendentes.
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construir interfaces de usuário.
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Estilização das páginas.
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/nathcolombo/react-todo-app.git
+
+   ```
+
+2. Navegue até a pasta do projeto:
+
+   ```bash
+   cd react-todo-app
+
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+
+   ```
+
+4. Execute o projeto:
+   ```bash
+   npm start
+   ```
+
+O projeto será executado localmente em http://localhost:3000.
+
+# React To-do App
+
+This project was created to practice React by building a simple todo list application. It allows users to add, mark as completed, and remove tasks, providing a practical and intuitive way to manage daily tasks.
 
 ## Available Scripts
 
@@ -8,63 +71,55 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Launches the app in development mode.
+Open http://localhost:3000 to view it in the browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the test watcher in an interactive mode. Use this command to check if the project functions as expected.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder. It bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Add Tasks:** Create a new task to add to your list.
+- **Mark as Completed:** Click on a task to mark it as completed.
+- **Remove Tasks:** Delete tasks that are no longer needed.
+- **Task Filter:** View all tasks, only completed ones, or pending ones.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Page styling.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to Run the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/nathcolombo/react-todo-app.git
 
-## Learn More
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to the project folder:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   cd react-todo-app
 
-### Code Splitting
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install the dependencies:
 
-### Analyzing the Bundle Size
+   ```bash
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```
 
-### Making a Progressive Web App
+4. Run the project:
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project will run locally at http://localhost:3000.

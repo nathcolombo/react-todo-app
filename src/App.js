@@ -27,6 +27,7 @@ function App() {
       { id: uuidv4(), name: newTodo, complete: false },
     ]);
     setNewTodo("");
+    setFilter("all");
   }
 
   function toggleTodo(id) {
@@ -35,6 +36,10 @@ function App() {
         todo.id === id ? { ...todo, complete: !todo.complete } : todo
       )
     );
+  }
+
+  function clearCompletedTodos() {
+    setTodos((prevTodos) => prevTodos.filter((todo) => !todo.complete));
   }
 
   const filteredTodos = todos.filter((todo) => {
@@ -78,7 +83,12 @@ function App() {
           {language === "pt" ? "Pendentes" : "Pending"}
         </button>
       </div>
+
       <TodoList todos={filteredTodos} toggleTodo={toggleTodo} />
+
+      <button className="clear-button" onClick={clearCompletedTodos}>
+        {language === "pt" ? "Limpar Concluídas" : "Clear Completed"}
+      </button>
     </div>
   );
 }
